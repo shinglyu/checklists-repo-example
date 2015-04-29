@@ -1,1 +1,1 @@
-script: "./push.sh"
+script: "python ./moztrap-integration/sync.py"
