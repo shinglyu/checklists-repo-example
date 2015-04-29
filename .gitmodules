@@ -1,6 +1,6 @@
 [submodule "moztrap-integration/cucumber-js"]
 	path = moztrap-integration/cucumber-js
 	url = https://github.com/shinglyu/cucumber-js.git
-[submodule "moztrap-integration/moztrap-cli"]
-	path = moztrap-integration/moztrap-cli
+[submodule "moztrap-integration/moztrapcli"]
+	path = moztrap-integration/moztrapcli
 	url = https://github.com/shinglyu/moztrap-cli
