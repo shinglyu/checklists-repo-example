@@ -4,15 +4,13 @@ import os
 
 #TODO: eliminate this tmp file
 tmpfile="tmp.txt"
-f = open(tmpfile, "w")
 
 #FIXME: hardcoded feature file name
-cases = subprocess.call(['./moztrap_integration/cucumber-js/bin/cucumber.js',
+cases = subprocess.call(['./moztrap_integration/cucumber-js/bin/cucumber.js ',
                          'fxos.rocketbar.feature',
-                         '-r', './moztrap_integration/step_definitions/moztrap.steps.js'
-                        ], stdout=f)
+                         '-r', './moztrap_integration/step_definitions/moztrap.steps.js',
+                         '>', tmpfile ])
 #TODO: detect for changed/added/delete case only and ignore the rest
-f.close()
 
 tmp = open(tmpfile, "r")
 #FIXME: hardcoded username/apikey
