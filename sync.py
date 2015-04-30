@@ -6,8 +6,8 @@ import os
 tmpfile="tmp.txt"
 
 #FIXME: hardcoded feature file name
-cmd = "%s %s -r %s > %s" % ('./moztrap_integration/cucumber-js/bin/cucumber.js', 'fxos.rocketbar.feature',
-                            './moztrap_integration/step_definitions/moztrap.steps.js', tmpfile)
+cmd = "%s %s -r %s " % ('./moztrap_integration/cucumber-js/bin/cucumber.js', 'fxos.rocketbar.feature',
+                            './moztrap_integration/step_definitions/moztrap.steps.js')
 print cmd
 os.system(cmd)
 #TODO: detect for changed/added/delete case only and ignore the rest
