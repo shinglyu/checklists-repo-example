@@ -1,1 +1,1 @@
-script: "python ./moztrap-integration/sync.py"
+script: "python ./sync.py"
