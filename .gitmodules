@@ -4,3 +4,9 @@
 [submodule "moztrap-integration/moztrapcli"]
 	path = moztrap-integration/moztrapcli
 	url = https://github.com/shinglyu/moztrap-cli
+[submodule "moztrap_integration/moztrapcli"]
+	path = moztrap_integration/moztrapcli
+	url = https://github.com/shinglyu/moztrap-cli
+[submodule "moztrap_integration/cucumber-js"]
+	path = moztrap_integration/cucumber-js
+	url = https://github.com/shinglyu/cucumber-js
