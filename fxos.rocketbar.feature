@@ -19,3 +19,9 @@ Feature: fxos.rocketbar
     Then Wow! Rocketbar appears
     When Tap the "close" button
     Then The rocket bar search window closes
+
+  Scenario: fxos.rocketbar.explode
+    When Tap the rocketbar 
+    Then Wow! Rocketbar appears
+    When Repeatedly tap the rocketbar, furiously
+    Then The rocket bar will explode (Just kidding)
