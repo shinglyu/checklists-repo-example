@@ -1,7 +1,7 @@
 Feature: fxos.rocketbar
 
   Scenario Outline: fxos.rocketbar.search-provider
-    When I search "<search term>" using <search provider>
+    When I search "<search term>" using <search provider> search engine
     Then The search page of <search provider> that searches "<search term>" is shown correctly
 
     Examples:
