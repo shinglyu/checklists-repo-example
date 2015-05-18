@@ -13,3 +13,9 @@ Feature: fxos.rocketbar
   Scenario: fxos.rocketbar.launch
     When Tap the rocketbar 
     Then The rocket bar search window opens
+
+  Scenario: fxos.rocketbar.close
+    When Tap the rocketbar 
+    Then The rocket bar search window opens
+    When Tap the "close" button
+    Then The rocket bar search window closes
