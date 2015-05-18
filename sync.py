@@ -13,4 +13,5 @@ os.system(cmd)
 
 #FIXME: hardcoded username/apikey
 mtapi.mtorigin = "https://moztrap-dev.allizom.org"
-mtapi.create(tmpfile, {'username': os.getenv("mz_user_name"), 'api_key': os.getenv("mz_api_key")})
+mtapi.convert_mark_file_into_moztrap(tmpfile, {'username': os.getenv("mz_user_name"), 'api_key': os.getenv("mz_api_key")})
+
