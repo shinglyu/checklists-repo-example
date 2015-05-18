@@ -16,6 +16,6 @@ Feature: fxos.rocketbar
 
   Scenario: fxos.rocketbar.close
     When Tap the rocketbar 
-    Then The rocket bar search window opens
+    Then Wow! Rocketbar appears
     When Tap the "close" button
     Then The rocket bar search window closes
